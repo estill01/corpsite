@@ -1,0 +1,38 @@
+#mainContainer {
+	display: block;
+	position: relative;
+/*	background-color: orange;*/
+	text-align: center;
+}
+
+#statement {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+/*	background-color: blue;*/
+}
+
+#mainContainer h1 {
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	display: inline;
+	text-align: center;
+}
+
+#mainContainer h2 {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+#mainImage {
+	display: inline-block;
+	position: relative;
+	padding: 0;
+/*	background-color: purple;*/
+}
+
+#mainImage img {
+
+}

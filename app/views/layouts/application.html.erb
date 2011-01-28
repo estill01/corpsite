@@ -4,13 +4,14 @@
 	  <title><%= @title %></title>
 	  <%= csrf_meta_tag %>
 	  <%= render 'layouts/stylesheets' %>
+	  <%= stylesheet_link_tag @title %>
 	  <%= javascript_include_tag :defaults %>
 	  <meta type="description" content="Boutique technology consulting">
 	</head>
 	<body>
 		<div class="container">
-			<%= render 'layouts/header' %>
-			<section class="round">
+			<!-- <%= render 'layouts/header' %> -->
+			<section id="main">
 				<%= yield %>			
 			</section>
 			<%= render 'layouts/footer' %>
