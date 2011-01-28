@@ -1,11 +1,30 @@
 <div id="mainContainer">
 	<div id="statement">
-		<h1>Mobile?</h1><br/>
+		<h1>Big data?</h1><br/>
 		<h2>We do that.</h2>
 	</div>
 	<div id="mainImage">
 		<!-- <%= image_tag("mac.png", :alt => "Web? We do that.") %> -->
-		<%= image_tag("bigiphone.png")%>
-		<!-- <%= image_tag("custom.jpg")%> -->
+		<!-- <%= image_tag("bigiphone.png")%> -->
+		<%= image_tag("custom.jpg")%>
+	</div>
+	<div id="inquiry">
+		<%= form_for @inquiry do |f| %>
+		<div class="textarea">
+			<%= f.label :content, "How can we help you?" %>
+			<%= f.text_area :content %>
+		</div>
+		<div class="field">
+			<%= f.label :name %>
+			<%= f.text_field :name %>
+		</div>
+		<div class="field">
+			<%= f.label :email %>
+			<%= f.text_field :email %>
+		</div>
+		<div class="submit">
+			<%= f.submit 'submit' %>
+		</div>
+		<% end %>
 	</div>
 </div>

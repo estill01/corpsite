@@ -1,7 +1,9 @@
 Lowblink::Application.routes.draw do
+resources :inquiries, :only => [:create]
 
 root :to => "pages#home"
 
+redirect '/inquiries' => "pages#home"
 match '/contact' => "pages#contact"
 match '/about' => "pages#about"
 match '/home' => "pages#home"

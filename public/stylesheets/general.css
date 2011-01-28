@@ -6,6 +6,11 @@ body {
 	color: rgba(0,0,0,0.8);
 	background-color: rgba(250,250,250,1);	
 	background: url('../images/top_grainy.png') repeat-x;	
+/*	background: -webkit-gradient(radial, top top, 600, center bottom, 1000, from(#ffffff), to(#2F2727));
+	background: -moz-radial-gradient(top 45deg, circle farthest-corner, #1a82f7 0%, #2F2727 90%);	
+*/	
+	
+	
 }
 
 h1 {
