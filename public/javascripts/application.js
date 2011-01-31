@@ -9,12 +9,9 @@ $(document).ready(function () {
 	// 		$(".web").delay(800).fadeIn(300);
 	// 		$(".web").delay(1100).fadeOut(300);			
 	// 		$(".data").delay(1400).fadeIn(300);
-	// 					
-	// 		// $(".web")
-	// 		// $(".data")							
 	// 	};
 	// };
 	// 
 	// cycle();
-	// 
+	
 });

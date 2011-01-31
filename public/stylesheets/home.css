@@ -1,7 +1,7 @@
 #mainContainer {
 	display: block;
 	position: relative;
-/*	background-color: orange;*/
+	background-color: white;
 	text-align: center;
 }
 
@@ -53,6 +53,7 @@
 	display: inline-block;
 	position: relative;
 	padding: 0;
+	min-height: 396px;
 /*	background-color: purple;*/
 }
 
