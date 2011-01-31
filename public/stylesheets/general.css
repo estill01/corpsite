@@ -41,6 +41,24 @@ h2 {
 
 }
 
+#sidenav {
+	display: inline;
+	position: fixed;
+	float:left;
+	margin: 9em 0 0 1.5em;
+	color: rgba(0,0,0,0.4);
+	z-index: 3;
+	background-color: white;
+	border-radius: 10px;
+}
+
+
+#sidenav ul {
+	list-style-type: none;
+	margin: .2em .7em .2em 0;
+	padding: 0 0 0 .7em;
+}
+
 /* HEADER 
 ------------------------*/
 header {

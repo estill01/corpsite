@@ -5,7 +5,7 @@ class Inquiry < ActiveRecord::Base
   validate :email, :presence => true  
   validate :content, :presence => true
     
-  before_save :followup
+  # before_save :followup
   
   
   private

@@ -13,5 +13,8 @@ $(document).ready(function () {
 	// };
 	// 
 	// cycle();
+
+
+	$("#howHelp").focus();
 	
 });

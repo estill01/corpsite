@@ -1,4 +1,5 @@
 <div id="mainContainer">
+
 	<div id="statement">
 		<div id="need">
 			<div class="mobile">
@@ -10,28 +11,30 @@
 			<div class="data">
 				<h1>Data?</h1>
 			</div>
-			<!-- <div class="distribution">
-				<h1>Distribution?</h1>
-			</div> -->
 		</div>
 		<h2>We do that.</h2>
 	</div>
 	<div id="mainImage">
 		<div class="mobile">
-			<%= image_tag('bigiphone.jpg')%>		
+			<%= image_tag('iphone.jpg') %>		
 		</div>
 		<div class="web">
 			<%= image_tag("mac.jpg", :alt => "Web? We do that.") %>
 		</div>
 		<div class="data">
-			<%= image_tag("data.jpg")%>
+			<%= image_tag("data.jpg") %>
 		</div>
 	</div>
-	<div id="inquiry">
-		<%= form_for @inquiry do |f| %>
-		<div class="textarea">
-			<%= f.label :content, "How can we help you?" %><br/>
-			<%= f.text_area :content %>
+
+	<div id="pitch">
+		<p>We are startup technologists committed to helping you solve your product, technology, and distribution challenges.<br/> We are Protovore Partners. We do that.</p>
+	</div>
+
+	<div id="inquiry">	
+		<%= form_for(@inquiry) do |f| %>
+		<div class="textarea" id="howHelp">
+			<%= f.label :content, "Tell us about your situation" %><br/>
+			<%= f.text_area :content, :cols => 10, :rows => 3  %>
 		</div>
 		<div class="field">
 			<%= f.label :name %><br/>
@@ -46,4 +49,10 @@
 		</div>
 		<% end %>
 	</div>
+	<div class="flash">
+		<% flash.each do |key, value| %>
+			<%= content_tag(:div, value, :class => "flash #{key}")%>
+		<% end %>
+	</div>
+
 </div>

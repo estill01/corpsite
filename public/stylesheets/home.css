@@ -3,6 +3,7 @@
 	position: relative;
 	background-color: white;
 	text-align: center;
+	padding: 0 0 10em 0;
 }
 
 
@@ -35,11 +36,11 @@
 }
 
 .mobile {
-/*	display: none;*/
+	display: none;
 }
 
 .web {
-	display: none;
+/*	display: none;*/
 }
 
 .data {
@@ -48,7 +49,6 @@
 
 /* MAIN
 ------------------------------*/
-
 #mainImage {
 	display: inline-block;
 	position: relative;
@@ -60,3 +60,33 @@
 #mainImage img {
 
 }
+
+#pitch {
+	font-style: italic;
+	margin: 0 0 1em 0;
+}
+
+#pitch p {
+	margin: 0 0 .8em 0;
+}
+
+
+/* FORM
+----------------------------*/
+#inquiry form label {
+	font-size: 1.5em;
+}
+
+
+#inquiry form textarea {
+	font-size: 1.5em;
+	color:rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
