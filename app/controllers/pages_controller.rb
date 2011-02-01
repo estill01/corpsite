@@ -6,23 +6,23 @@ class PagesController < ApplicationController
   end
   
   def contact
-    @title = "Contact"
+    @title = "contact"
   end
   
   def about
-    @title = "About"
+    @title = "about"
   end
   
   def services
-    @title = "Services"
+    @title = "services"
   end
   
   def blog
-    @title = "Blog"
+    @title = "blog"
   end
   
   def thanks
-    @title = "Thanks"
+    @title = "thanks"
     @inquiry = Inquiry.new(params[:inquiry])
   end
     
