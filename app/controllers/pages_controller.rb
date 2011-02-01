@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   
   def home
-    @title = "Home"
+    @title = "home"
     @inquiry = Inquiry.new(params[:inquiry])
   end
   
