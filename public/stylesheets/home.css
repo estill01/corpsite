@@ -3,7 +3,7 @@
 	position: relative;
 	background-color: white;
 	text-align: center;
-	padding: 0 0 10em 0;
+	padding: 0 0 2em 0;
 }
 
 
@@ -33,14 +33,20 @@
 
 #need {
 	min-height: 4.5em;
+	max-height: 4.5em;	
+}
+
+#need h1 {
+	display: inline;
+	position: static;
 }
 
 .mobile {
-	display: none;
+/*	display: none;*/
 }
 
 .web {
-/*	display: none;*/
+	display: none;
 }
 
 .data {
@@ -50,20 +56,23 @@
 /* MAIN
 ------------------------------*/
 #mainImage {
-	display: inline-block;
-	position: relative;
+	display: block;
 	padding: 0;
 	min-height: 396px;
+	max-height: 396px;
+	overflow: none;
 /*	background-color: purple;*/
 }
 
 #mainImage img {
-
+	display: inline;
+	position: absolute;
+	float:left;
 }
 
 #pitch {
 	font-style: italic;
-	margin: 0 0 1em 0;
+	margin: 1em 0 1em 0;
 }
 
 #pitch p {
@@ -73,19 +82,91 @@
 
 /* FORM
 ----------------------------*/
+#inquiry {
+	border: 2px solid lightskyblue;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;	
+	-moz-border-radius: 10px;
+	padding: 1em 0 3em 0;
+	background-color: rgba(153,153,255,0.1);
+	-webkit-box-shadow: 0px 0px 10px rgba(10,10,10,.2);
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f3fe), to(#d9e4f9));  
+	background: -moz-linear-gradient(top,  #355a87, #0f2c4f);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#355a87', endColorstr='#0f2c4f'); 				
+	
+	height: 34em;
+	
+}
+
 #inquiry form label {
 	font-size: 1.5em;
+	text-shadow: 0px 2px 2px rgba(200,200,200,.4);
 }
 
 
 #inquiry form textarea {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color:rgba(0,0,0,0.75);
+	border-radius: 5px;
+	-moz-border-radius: 5px;	
+	-webkit-border-radius: 5px;		
+	border:1px solid skyblue;		
+}
+
+#inquiry form textarea:focus {
+	border: 1px solid rgba(20,20,20,0.4);
+}
+
+.field input {
+	font-size: 1.2em;
+	padding: .5em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;	
+	-webkit-border-radius: 5px;	
+	border:1px solid skyblue;		
+}
+
+
+.field input:focus {
+	border: 1px solid rgba(20,20,20,0.4);
+}
+
+#inquiry_submit {
+	font-size: 4em;
+	width: 3em;
+	margin: .5em;
+	
+	
+}
+
+#afterSend {
+	display: none;
+	width: 80%;
+	height: 80%;
+	background-color: red;
 }
 
 
 
 
+/* TESTIMONIALS
+-----------------------*/
+#testimonials {
+	margin: 1.5em 0 0 0;
+}
+
+#testimonials p {
+	margin: 0;
+}
+
+.quote {
+	font-style: italic;
+}
+
+.person {
+	color: rgba(130,130,130,1);
+}
 
 
 

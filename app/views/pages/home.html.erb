@@ -48,11 +48,16 @@
 			<%= f.submit 'submit' %>
 		</div>
 		<% end %>
-	</div>
-	<div class="flash">
-		<% flash.each do |key, value| %>
-			<%= content_tag(:div, value, :class => "flash #{key}")%>
-		<% end %>
+		<div id="afterSend">
+			<%= render 'afterSend' %>
+		</div>
 	</div>
 
+	<div id="testimonials">
+		<%= link_to atma , "http://atmalinks.com" %>
+		<p class="quote">
+			"Really helped us up our game. Great guys."
+		</p>
+		<p class="person">Chris Dickson, CEO, <%= link_to 'AtmaLinks', 'http://atmalinks.com' %> LLC.</p>
+	</div>
 </div>

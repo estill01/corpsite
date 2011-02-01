@@ -1,13 +1,17 @@
 Lowblink::Application.routes.draw do
 resources :inquiries, :only => [:create]
+resources :pages
 
 root :to => "pages#home"
 
 redirect '/inquiries' => "pages#home"
+
+# SITE PAGES
 match '/contact' => "pages#contact"
 match '/about' => "pages#about"
 match '/home' => "pages#home"
-
+match '/services' => "pages#services"
+match '/blog' => "pages#blog"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

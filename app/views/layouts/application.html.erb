@@ -5,23 +5,34 @@
 	  <%= csrf_meta_tag %>
 	  <%= render 'layouts/stylesheets' %>
 	  <%= stylesheet_link_tag @title %>
-	  <%= javascript_include_tag :defaults %>
+	  <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" %>
+	  <%= javascript_include_tag :all, :cache => true %>
 
 	
-	  <meta type="description" content="Boutique technology consulting">
+	  <meta type="description" content="Startup technologists committed to helping you solve your product, technology, and distribution challenges.We are Protovore Partners. We do that.">
 	</head>
 	<body>
 		<div id="banner">
-			<%= image_tag('banner.png')%>
+			<%= link_to banner, root_path %>
 		</div>
 		<div id="sidenav">
 			<ul>
-				<li>Services</li>
-				<li>About</li>
-				<li>Contact</li>
+				<li><%= link_to 'Services', services_path %></li>
+				<li><%= link_to 'About', about_path %></li>
+				<li><%= link_to 'Contact', contact_path %></li>
+				<!-- <li><%= link_to 'Blog', blog_path %></li> -->
+				<li class="twitter"><a href="http://www.twitter.com/protovore"><img src="http://twitter-badges.s3.amazonaws.com/twitter-c.png" alt="Follow @protovore on Twitter"/></a></li>
+				<% if @title != "Home" %>
+					<%= render :partial => 'shared/back' %>
+				<% end %>
 			</ul>
 		</div>
 		<div class="container">
+			<div class="flash">
+				<% flash.each do |key, value| %>
+					<%= content_tag(:div, value, :class => "flash #{key}")%>
+				<% end %>
+			</div>
 			<section id="main">
 				<%= yield %>			
 			</section>
