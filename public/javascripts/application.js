@@ -58,12 +58,12 @@ $(document).ready(function () {
 	
 	
 	// Post-submit message/Twitter pimp-age
-	$("#inquiry_submit").click(function (event) {
-		event.preventDefault();
-		$("#new_inquiry").fadeOut(300);
-		$("#afterSend").delay(200).fadeIn(300);
-	});
-
+	// $("#inquiry_submit").click(function (event) {
+	// 		event.preventDefault();
+	// 		$("#new_inquiry").fadeOut(300);
+	// 		$("#afterSend").delay(200).fadeIn(300);
+	// 	});
+	
 
 
 

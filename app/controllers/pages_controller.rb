@@ -21,4 +21,10 @@ class PagesController < ApplicationController
     @title = "Blog"
   end
   
+  def thanks
+    @title = "Thanks"
+    @inquiry = Inquiry.new(params[:inquiry])
+  end
+    
+  
 end

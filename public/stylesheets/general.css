@@ -69,6 +69,29 @@ h2 {
 }
 
 
+#mainContainer {
+	display: block;
+	position: relative;
+	background-color: white;
+	text-align: center;
+	padding: 0 0 2em 0;
+}
+
+#mainContainer h1 {
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	display: inline;
+	text-align: center;
+}
+
+#mainContainer h2 {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+
 /* HEADER 
 ------------------------*/
 header {

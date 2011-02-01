@@ -12,7 +12,7 @@ match '/about' => "pages#about"
 match '/home' => "pages#home"
 match '/services' => "pages#services"
 match '/blog' => "pages#blog"
-
+match '/thanks' => "pages#thanks"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
