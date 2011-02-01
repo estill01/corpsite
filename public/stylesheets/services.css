@@ -1,0 +1,16 @@
+#mainContainer {
+	display: block;
+	position: relative;
+	background-color: white;
+	text-align: left;
+	padding: 0 0 2em 0;
+}
+
+#servicesList {
+	text-align: left;
+	list-style-type: none;
+}
+
+#servicesList li {
+	padding: 0 0 1em 0;
+}
