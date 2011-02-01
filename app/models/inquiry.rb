@@ -10,8 +10,8 @@ class Inquiry < ActiveRecord::Base
   
   private
   
-    def followup
-      UserMailer.welcome(user).deliver
-    end
+    # def followup
+    #   UserMailer.welcome(user).deliver
+    # end
   
 end
