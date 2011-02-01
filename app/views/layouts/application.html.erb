@@ -3,8 +3,7 @@
 	<head>
 	  <title><%= @title %></title>
 	  <%= csrf_meta_tag %>
-	  <%= render 'layouts/stylesheets', :cache => false %>
-	  <%= stylesheet_link_tag @title, :cache => false%>
+	  <%= render 'layouts/stylesheets', :cache => true %>
 	  <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" %>
 	  <%= javascript_include_tag :defaults %>
 
