@@ -15,6 +15,7 @@ class PagesController < ApplicationController
   
   def services
     @title = "services"
+    @inquiry = Inquiry.new(params[:inquiry])
   end
   
   def blog

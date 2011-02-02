@@ -28,7 +28,9 @@
 	<p>We are startup technologists committed to helping you solve your product, technology, and distribution challenges.<br/> We are Protovore Partners.</p>
 </div>
 
-<div id="inquiry">	
+
+<%= render :partial => "shared/inquiryForm" %>
+<!-- <div id="inquiry">	
 	<%= form_for(@inquiry) do |f| %>
 	<div class="textarea" id="howHelp">
 		<%= f.label :content, "Tell us about your situation" %><br/>
@@ -46,7 +48,7 @@
 		<%= f.submit 'Send' %>
 	</div>
 	<% end %>
-</div>
+</div> -->
 
 <div id="testimonials">
 	<%= link_to atma , "http://atmalinks.com" %>
