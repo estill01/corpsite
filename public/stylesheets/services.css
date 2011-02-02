@@ -6,13 +6,18 @@
 	padding: 0 0 2em 0;
 }
 
+#serviceOverview {
+	position: relative;
+	z-index: 2;
+}
+
+
 #servicesList {
 	text-align: left;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-
 
 
 #servicesList li {
