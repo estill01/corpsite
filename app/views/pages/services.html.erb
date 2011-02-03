@@ -10,23 +10,23 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 	<div id="serviceBox">
 		<table>
 		<tr>
-			<td>Design</td>
-			<td>Prototyping</td>
+			<td><%= link_to 'Design', '#design'%></td>
+			<td><%= link_to 'Prototyping', '#prototyping' %></td>
 			<!-- <td>Distribution</td> -->
 			<!-- <td>Machine Learning</td> -->
-			<td>Data Mining</td>
+			<td><%= link_to 'Data Mining', '#dataMining' %></td>
 		</tr>
 		<tr>
-			<td>Development</td>
-			<td>Research</td>	
-			<td>Security</td>
+			<td><%= link_to 'Development', '#development'%></td>
+			<td><%= link_to 'Research', '#research'%></td>	
+			<td><%= link_to 'Artificial Intelligence', '#ai' %></td>
 			<!-- <td>Data Warehousing</td> -->
 			
 		</tr>
 		<tr>
-			<td>Partnerships</td>
-			<td>Marketing</td>
-			<td>Artificial Intelligence</td>
+			<td><%= link_to 'Partnerships', '#partnerships'%></td>
+			<td><%= link_to 'Marketing', '#marketing'%></td>
+			<td><%= link_to 'Security', '#security' %></td>
 			<!-- <td>Scaling</td> -->
 		</tr>
 	</table>
@@ -39,7 +39,7 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 		If you have a technology or business challenge, we can help.
 	</p>
 	<ul>		
-		<li id="design" class="serviceItem">
+		<li id="design" class="serviceItem" name="design">
 			<table>
 				<tr>
 					<td>
@@ -53,7 +53,7 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 				</tr>
 			</table>
 		</li>
-		<li id="development" class="serviceItem">
+		<li id="development" class="serviceItem" name="development">
 			<table>
 				<tr>
 					<td>
@@ -67,7 +67,7 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 				</tr>
 			</table>
 		</li>
-		<li id="partnerships" class="serviceItem">
+		<li id="partnerships" class="serviceItem" name="partnerships">
 			<table>
 				<tr>
 					<td>
@@ -82,7 +82,7 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 				</tr>
 			</table>
 		</li>
-		<li id="prototyping" class="serviceItem">
+		<li id="prototyping" class="serviceItem" name="prototyping">
 			<table>
 				<tr>
 					<td>
@@ -96,7 +96,7 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 				</tr>
 			</table>			
 		</li>
-		<li id="research" class="serviceItem">
+		<li id="research" class="serviceItem" name="research">
 			<table>
 				<tr>
 					<td>
@@ -110,7 +110,7 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 				</tr>
 			</table>
 		</li>
-		<li id="marketing" class="serviceItem">
+		<li id="marketing" class="serviceItem" name="marketing">
 			<table>
 				<tr>
 					<td>
@@ -125,7 +125,7 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 			</table>
 		</li>
 
-		<li id="dataMining" class="serviceItem">
+		<li id="dataMining" class="serviceItem" name="dataMining">
 			<table>
 				<tr>
 					<td>
@@ -140,7 +140,22 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 			</table>
 
 		</li>
-		<li id="security" class="serviceItem">
+		<li id="ai" class="serviceItem" name="ai">
+			<table>
+				<tr>
+					<td>
+						<%= image_tag('/images/ai.png', :size => "130x130") %>
+					</td>
+					<td>
+						<strong>Artificial Intelligence</strong><br/>
+						For those who truly want to outwit their competition.<br/>
+						<%= link_to 'How can we help?', '#form'%>
+					</td>
+				</tr>
+			</table>			
+		</li>		
+		
+		<li id="security" class="serviceItem" name="security">
 			<table>
 				<tr>
 					<td>
@@ -155,65 +170,8 @@ Protovore Partners takes an holistic approach to helping you enhance and grow yo
 				</tr>
 			</table>			
 		</li>
-
-		<li id="ai" class="serviceItem">
-			<table>
-				<tr>
-					<td>
-						<%= image_tag('/images/ai.png', :size => "130x130") %>
-					</td>
-					<td>
-						<strong>Artificial Intelligence</strong><br/>
-						For those who truly want to outwit their competition.<br/>
-						<%= link_to 'How can we help?', '#form'%>
-					</td>
-				</tr>
-			</table>			
-		</li>		
-		<!-- <li id="machineLearning" class="serviceItem">
-			<table>
-				<tr>
-					<td>
-						<%= image_tag('/images/world.png', :size => "130x130") %>
-					</td>
-					<td>
-						<strong>Machine Learning</strong><br/>
-						When you need to make sense of a lot of data.
-					</td>
-				</tr>
-			</table>
-		</li> -->
-		<!-- <li>
-			<table>
-				<th>
-					<strong>Data Warehousing</strong>
-				</th>
-				<tr>
-					<td>
-						<%= image_tag('/images/database.png', :size => "130x130") %>
-					</td>
-					<td>
-						Storing and keeping track of a lot of data is not easy.
-					</td>
-				</tr>
-			</table>
-		</li> -->
-		<!-- <li>
-			<table>
-				<th>
-					<strong>Scaling</strong>
-				</th>
-				<tr>
-					<td>
-						<%= image_tag('/images/world.png', :size => "130x130") %>
-					</td>
-					<td>
-						The best problem to have.
-					</td>
-				</tr>
-			</table>
-		</li> -->
 	</ul>
 </div>
+
 
 <%= render :partial => "shared/inquiryForm" %>

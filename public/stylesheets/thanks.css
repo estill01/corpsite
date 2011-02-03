@@ -1,63 +1,34 @@
-#floatingInquiry {
+#thanks {
+	padding: 0.2em 0 1em 0 ;
+}
+
+#thanksMessage {
+	padding: 1em 0 0 0;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+}
+
+#moreInfo {
+	margin: 2em 0 0 0;
+	color: rgba(20,20,20,0.7);
+/*	text-align: justify;*/
+}
+
+#moreForm {
 	text-align: center;
-	margin: .6em 0 0 0;
-	border: 2px solid lightskyblue;
-	border-radius: 20px;
-	-webkit-border-radius: 20px;	
-	-moz-border-radius: 20px;
-	padding: 1em 0 3em 0;
-	background-color: rgba(153,153,255,0.1);
-	-webkit-box-shadow: 0px 0px 10px rgba(10,10,10,.2);
-	-moz-box-shadow: 0px 0px 10px rgba(10,10,10,.2);	
-	
-	background: -webkit-gradient(linear, left top, left bottom, from(#f2f3fe), to(#d9e4f9));  
-	background: -moz-linear-gradient(top,  #f2f3fe, #d9e4f9);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f3fe', endColorstr='#d9e4f9'); 				
-	
-	height: 34em;
-	width: 495px;
-	position: fixed;
-	z-index: 10;
-	display:none;
-	
+	margin: 0;
 }
 
-#floatingInquiry form label {
-	font-size: 1.5em;
-	text-shadow: 0px 1px 2px rgba(200,200,200,.4);
+textarea {
+	border-radius: 10px;
+	-moz-border-radius: 10px;	
+	-webkit-border-radius: 10px;
 }
 
-
-#floatingInquiry form textarea {
-	text-align: left;
-	font-size: 1.2em;
-	color:rgba(0,0,0,0.75);
-	border-radius: 5px;
-	-moz-border-radius: 5px;	
-	-webkit-border-radius: 5px;		
-	border:1px solid skyblue;		
-}
-
-#floatingInquiry form textarea:focus {
-	border: 1px solid rgba(20,20,20,0.4);
-}
-
-.field input {
-	text-align: left;
-	font-size: 1.2em;
-	padding: .5em;
-	border-radius: 5px;
-	-moz-border-radius: 5px;	
-	-webkit-border-radius: 5px;	
-	border:1px solid skyblue;		
-}
-
-
-.field input:focus {
-	border: 1px solid rgba(20,20,20,0.4);
-}
-
-#floatingInquiry_submit {
+input {
 	font-size: 1.5em;
 	width: 8em;
 	margin: .7em;
@@ -74,10 +45,10 @@
 	
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
-	border-radius: 20px;	
+	border-radius: 20px;
 }
 
-#floatingInquiry_submit:hover {
+input:hover {
 	font-size: 1.5em;
 	width: 8em;
 	margin: .7em;
@@ -97,7 +68,7 @@
 	border-radius: 20px;	
 }
 
-#floatingInquiry_submit:active {
+input:active {
 	font-size: 1.5em;
 	width: 8em;
 	margin: .7em;

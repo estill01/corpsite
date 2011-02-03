@@ -1,24 +1,27 @@
+<%= stylesheet_link_tag 'thanks' %>
+<div id="thanks">
+	<h2>Thanks for reaching out.</h2>
+</div>
 
-<h2>Thanks for reaching out.</h2>
+<div id="thanksMessage">
+	<p>
+		We will be in touch shortly.<br/>
+		If you need to speak to someone immediately please text:
+	</p>
+	<pre>(617) 460-5544</pre>
+</div>
 
-<p>
-	We will be in touch shortly.<br/>
-	If you need to speak to someone immediately please email:
-</p>
-<pre>technomergency@protovore.com</pre>
-<p> or text</p>
-<pre>(617) 460-5544</pre>
-<br/>
-
-<p>
+<div id="moreInfo">
+	<p>
 	If you would like to provide more details about the product, technology, or business challenges you are facing, or how else we can help you, please do so here:
-</p>
-
-<%= form_for(@inquiry) do |f| %>
-
-	<%= f.text_area :content %>
-
-	<div>
-		<%= f.submit 'submit' %>
+	</p>
+	
+	<div id="moreForm">
+		<%= form_for(@inquiry) do |f| %>
+			<%= f.text_area :content %>
+			<div>
+				<%= f.submit 'submit' , :class => "submitInfo" %>
+			</div>
+		<% end %>
 	</div>
-<% end %>
+</div>
