@@ -65,10 +65,49 @@ $(document).ready(function () {
 	// 	});
 	
 
+// SERVICES PAGE
 
-
-
-
+	// ITEM HOVER CHANGES
+	$(".serviceItem").hover(
+		function () {
+			$(this).css({
+				"background-color":"rgba(0,0,255,.1)",
+				"cursor":"pointer"
+			});
+		},
+		function () {
+			$(this).css({
+				"background-color":"white"
+			});
+		}
+	);
 	
+	// FORM OVERLAY
+	// $(".hide").delay(500).css({
+	// 	"display":"none"
+	// });
+	
+	
+	
+	
+	// $(".serviceItem").mousedown(
+	// 	function () {
+	// 		$(this).css({
+	// 			"background-color":"rgba(0,0,255,.5)",
+	// 			"color":"white"
+	// 		});
+	// 	}
+	// );
+	// 
+	// $(".serviceItem").mouseup(
+	// 	function () {
+	// 		$(this).css({
+	// 			"background-color":"rgba(0,0,255,0.1)",
+	// 			"color":"inherit"
+	// 		});
+	// 	}
+	// );
+
+	// ==> toss a scrollTo or whatever down to the form at the bottom.
 	
 });

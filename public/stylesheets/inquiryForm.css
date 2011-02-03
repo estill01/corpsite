@@ -1,0 +1,113 @@
+#inquiry {
+	text-align: center;
+	border: 2px solid lightskyblue;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;	
+	-moz-border-radius: 20px;
+	padding: 1em 0 3em 0;
+	background-color: rgba(153,153,255,0.1);
+	-webkit-box-shadow: 0px 0px 10px rgba(10,10,10,.2);
+	-moz-box-shadow: 0px 0px 10px rgba(10,10,10,.2);	
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f3fe), to(#d9e4f9));  
+	background: -moz-linear-gradient(top,  #f2f3fe, #d9e4f9);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f3fe', endColorstr='#d9e4f9'); 				
+	
+	height: 34em;
+	
+}
+
+#inquiry form label {
+	font-size: 1.5em;
+	text-shadow: 0px 1px 2px rgba(200,200,200,.4);
+}
+
+
+#inquiry form textarea {
+	text-align: left;
+	font-size: 1.2em;
+	color:rgba(0,0,0,0.75);
+	border-radius: 5px;
+	-moz-border-radius: 5px;	
+	-webkit-border-radius: 5px;		
+	border:1px solid skyblue;		
+}
+
+#inquiry form textarea:focus {
+	border: 1px solid rgba(20,20,20,0.4);
+}
+
+.field input {
+	text-align: left;
+	font-size: 1.2em;
+	padding: .5em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;	
+	-webkit-border-radius: 5px;	
+	border:1px solid skyblue;		
+}
+
+
+.field input:focus {
+	border: 1px solid rgba(20,20,20,0.4);
+}
+
+#inquiry_submit {
+	font-size: 1.5em;
+	width: 8em;
+	margin: .7em;
+	padding: .3em 0 .3em 0;
+	background-color: red;
+	border: 2px solid rgba(100,100,100,0.2);
+	border-top: 2px solid rgba(250,250,250,0.7);
+	color: white;
+	text-shadow: -1px -1px 1px rgba(30,30,30,0.3);
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#e6e8fd), to(#568cc9));  
+	background: -moz-linear-gradient(top,  #e6e8fd, #568cc9);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6e8fd', endColorstr='#568cc9');
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;	
+}
+
+#inquiry_submit:hover {
+	font-size: 1.5em;
+	width: 8em;
+	margin: .7em;
+	padding: .3em 0 .3em 0;
+	background-color: red;
+	border: 2px solid rgba(100,100,100,0.2);
+	border-top: 2px solid rgba(250,250,250,0.7);
+	color: white;
+	text-shadow: -1px -1px 1px rgba(30,30,30,0.3);
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#e6e8fd), to(#418ee5));  
+	background: -moz-linear-gradient(top,  #e6e8fd, #418ee5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6e8fd', endColorstr='#418ee5');
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;	
+}
+
+#inquiry_submit:active {
+	font-size: 1.5em;
+	width: 8em;
+	margin: .7em;
+	padding: .3em 0 .3em 0;
+	background-color: red;
+	border: 2px solid rgba(100,100,100,0.4);
+	border-top: 2px solid rgba(250,250,250,0.7);
+	color: rgba(255,255,255,0.6);
+	text-shadow: -1px -1px 1px rgba(30,30,30,0.3);
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#e6e8fd), to(#568cc9));  
+	background: -moz-linear-gradient(top,  #e6e8fd, #568cc9);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6e8fd', endColorstr='#568cc9');
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;	
+}
