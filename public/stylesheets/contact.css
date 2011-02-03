@@ -14,3 +14,15 @@ a:link {
 	position: relative;
 	z-index: 2;
 }
+
+#email {
+	margin: 0 0 1.5em;
+}
+
+#phone {
+	margin: 0 0 1.5em;
+}
+
+#address {
+	margin: 0 0 1.5em;
+}

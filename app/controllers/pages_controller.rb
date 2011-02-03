@@ -7,6 +7,7 @@ class PagesController < ApplicationController
   
   def contact
     @title = "contact"
+    @inquiry = Inquiry.new(params[:inquiry])
   end
   
   def about
