@@ -72,21 +72,33 @@ $(document).ready(function () {
 		function () {
 			$(this).css({
 				"background-color":"rgba(0,0,255,.1)",
-				"cursor":"pointer"
+				"cursor":"pointer",
+				"border-radius":"10px",
+				"-moz-border-radius":"10px",
+				"-webkit-border-radius":"10px"
 			});
 		},
 		function () {
 			$(this).css({
-				"background-color":"white"
+				"background-color":"white",
+				"border":"none"
 			});
 		}
 	);
 	
 	// FORM OVERLAY
-	// $(".hide").delay(500).css({
-	// 	"display":"none"
-	// });
+	$(".serviceItem").click(function () {
+		$("#sidenav").fadeOut(200);
+		$("div:hidden").fadeIn(200);
+	});
 	
+	$("#formOverlay").click(function(){
+		$("#formOverlay, #floatingInquiry").fadeOut(200);
+		$("#sidenav").fadeIn(200);
+
+	});
+
+		
 	
 	
 	
