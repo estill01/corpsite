@@ -1,0 +1,12 @@
+#mainContainer {
+	display: block;
+	position: relative;
+	background-color: white;
+	text-align: left;
+	padding: 0 0 2em 0;
+}
+
+a:link {
+	text-decoration: none;
+}
+
