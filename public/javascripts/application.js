@@ -2,19 +2,19 @@
 // This file is automatically included by javascript_include_tag :defaults
 $(document).ready(function () {
 	
-	function cycle () {
-		var x = true;
-		while (x == true) {
-			$(".mobile").delay(3000).fadeOut(300);
-			$(".web").delay(3400).fadeIn(300);
-			$(".web").delay(3800).fadeOut(300);			
-			$(".data").delay(4200).fadeIn(300);
-			$(".data").delay(5000).fadeOut(300);
-			$(".mobile").delay(5400).fadeIn(300);
-		};
-	};
-	
-	// Main visual cycle
+	// function cycle () {
+	// 	var x = true;
+	// 	while (x == true) {
+	// 		$(".mobile").delay(3000).fadeOut(300);
+	// 		$(".web").delay(3400).fadeIn(300);
+	// 		$(".web").delay(3800).fadeOut(300);			
+	// 		$(".data").delay(4200).fadeIn(300);
+	// 		$(".data").delay(5000).fadeOut(300);
+	// 		$(".mobile").delay(5400).fadeIn(300);
+	// 	};
+	// };
+	// 
+	// // Main visual cycle
 	// 
 	// make an array of the images/combos
 	// select a random number 0...n, and dump it in a variable
@@ -22,6 +22,19 @@ $(document).ready(function () {
 	// $select the item selected by the number generator and .fadeIn(300).delay(t).function() {
 	// 	run the # generator
 	// 	
+	// 	
+	// put elements in array x
+	// start with something showing, class = "showing"; others => {:class => "not"}
+	// wait interval
+	// hide 'showing'
+	// select next item in array
+	// 
+	
+	
+	
+	
+		
+		
 	// 	if # == current #
 	// 		run # generator again
 	// 	else
