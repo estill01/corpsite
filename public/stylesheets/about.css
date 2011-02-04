@@ -10,3 +10,7 @@ a:link {
 	text-decoration: none;
 }
 
+#aboutPitch {
+	position: relative;
+	z-index: 2;
+}
