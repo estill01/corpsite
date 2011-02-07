@@ -12,6 +12,7 @@ class PagesController < ApplicationController
   
   def about
     @title = "about"
+    @inquiry = Inquiry.new(params[:inquiry])
   end
   
   def services
