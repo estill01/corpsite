@@ -22,3 +22,19 @@ h2 {
 	font-weight: bold;
 	font-size: 1.3em;	
 }
+
+
+#teamLeads {
+	padding: .3em 0 2em 0;
+}
+#teamLeads ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#teamLeads li{
+
+	padding: 0;
+	margin: 0;
+}
