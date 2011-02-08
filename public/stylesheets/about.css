@@ -29,11 +29,13 @@ a:link {
 /* TESTIMONIAL
 -----------------------*/
 #testimonial {
-	margin: 2em 0 2em 0;
+	margin: 2em 0 2.2em 0;
 	text-align: center;
 
 	padding: 1em 0 1.5em 0;
 	-webkit-box-shadow: 0px -3px 0px rgba(30,120,255,0.4), 0px 3px 0px rgba(30,120,255,0.4);
+	-moz-box-shadow: 0px -3px 0px rgba(30,120,255,0.4), 0px 3px 0px rgba(30,120,255,0.4);
+	box-shadow: 0px -3px 0px rgba(30,120,255,0.4), 0px 3px 0px rgba(30,120,255,0.4);	
 	
 }
 
