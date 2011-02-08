@@ -6,15 +6,6 @@
 	padding: 0 0 2em 0;
 }
 
-a:link {
-	text-decoration: none;
-}
-
-#aboutPitch {
-	position: relative;
-	z-index: 2;
-}
-
 h2 {
 	margin: 0;
 	padding: .5em 0 0 0 ;
@@ -23,6 +14,49 @@ h2 {
 	font-size: 1.3em;	
 }
 
+
+a:link {
+	text-decoration: none;
+}
+
+/*ABOUT*/
+#aboutPitch {
+	position: relative;
+	z-index: 2;
+}
+
+
+/* TESTIMONIAL
+-----------------------*/
+#testimonial {
+	margin: 2em 0 2em 0;
+	text-align: center;
+
+	padding: 1em 0 1.5em 0;
+	-webkit-box-shadow: 0px -3px 0px rgba(30,120,255,0.4), 0px 3px 0px rgba(30,120,255,0.4);
+	
+}
+
+#testimonials p {
+	margin: 0;
+}
+
+.quote {
+	font-style: italic;
+	margin: 0;
+}
+
+.person {
+	color: rgba(130,130,130,1);
+	margin: 0;
+}
+
+
+
+/*STANDARS*/
+
+
+/*TEAM*/
 
 #teamLeads {
 	padding: .3em 0 1.5em 0;
