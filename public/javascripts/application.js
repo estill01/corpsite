@@ -15,7 +15,7 @@ $(document).ready(function () {
 					x = 0;
 				}
 				$(".service_" + x).delay(1000).fadeIn(500);
-			}, 10000);
+			}, 8500);
 		}
 	};
 

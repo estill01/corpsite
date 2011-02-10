@@ -194,7 +194,7 @@
 #click {
 	font-size: 1.5em;
 	width: 8em;
-	margin: .2em 0 0 0;
+	margin: .3em 0 0 0;
 	padding: .3em 0 .3em 0;
 	background-color: red;
 	border: 2px solid rgba(100,100,100,0.2);
@@ -214,7 +214,7 @@
 #click:hover {
 	font-size: 1.5em;
 	width: 8em;
-	margin: .2em 0 0 0;
+	margin: .3em 0 0 0;
 	padding: .3em 0 .3em 0;
 	background-color: red;
 	border: 2px solid rgba(100,100,100,0.2);
@@ -234,7 +234,7 @@
 #click:active {
 	font-size: 1.5em;
 	width: 8em;
-	margin: .2em 0 0 0;
+	margin: .3em 0 0 0;
 	padding: .3em 0 .3em 0;
 	background-color: red;
 	border: 2px solid rgba(100,100,100,0.4);
