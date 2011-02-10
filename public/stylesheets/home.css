@@ -14,20 +14,31 @@
 	max-height: 4.5em;	
 }
 
+#need ul {
+	margin: 0;
+	padding: 0;
+}
+
+#need li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
 #need h1 {
 	display: inline;
 	position: static;
 }
 
-.mobile {
+.service_0 {
 /*	display: none;*/
 }
 
-.web {
+.service_1 {
 	display: none;
 }
 
-.data {
+.service_2 {
 	display: none;
 }
 
