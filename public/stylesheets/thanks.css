@@ -4,7 +4,7 @@
 
 #thanksMessage {
 	padding: 1em 0 0 0;
-	border: 1px solid rgba(0,0,0,0.2);
+/*	border: 1px solid rgba(0,0,0,0.2);*/
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -13,8 +13,6 @@
 
 #moreInfo {
 	margin: 2em 0 0 0;
-	color: rgba(20,20,20,0.7);
-/*	text-align: justify;*/
 }
 
 #moreForm {
@@ -23,6 +21,9 @@
 }
 
 textarea {
+	font-size: 1.5em;
+	padding: .5em;
+	color: rgba(20,20,20,.8);
 	border-radius: 10px;
 	-moz-border-radius: 10px;	
 	-webkit-border-radius: 10px;
