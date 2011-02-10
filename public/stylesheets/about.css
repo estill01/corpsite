@@ -59,6 +59,9 @@ a:link {
 
 
 /*TEAM*/
+#team {
+	margin: 1.8em 0 0 0;
+}
 
 #teamLeads {
 	padding: .3em 0 1.5em 0;

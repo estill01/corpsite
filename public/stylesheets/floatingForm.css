@@ -1,6 +1,6 @@
 #floatingInquiry {
 	text-align: center;
-	margin: .6em 0 0 0;
+	margin: .5em 0 0 0;
 	border: 2px solid lightskyblue;
 	border-radius: 20px;
 	-webkit-border-radius: 20px;	
@@ -14,7 +14,7 @@
 	background: -moz-linear-gradient(top,  #f2f3fe, #d9e4f9);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f3fe', endColorstr='#d9e4f9'); 				
 	
-	height: 34em;
+	height: 35.5em;
 	width: 495px;
 	position: fixed;
 	z-index: 10;
@@ -50,6 +50,7 @@
 	-moz-border-radius: 5px;	
 	-webkit-border-radius: 5px;	
 	border:1px solid skyblue;		
+	margin: 0 0 1.3em 0;
 }
 
 
