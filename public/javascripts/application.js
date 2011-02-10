@@ -1,32 +1,28 @@
 $(document).ready(function () {
 
 
-// // FRONT LOOP
+	// FRONT LOOP
+	function frontLoop () {
+		var x = 0;
+		var max = 2;
 
-function frontLoop () {
-	var x = 0;
-	var max = 2;
-
-	if ($('title').html() === "Protovore Partners | home") {
+		if ($('title').html() === "Protovore Partners | home") {
 		
-		setInterval(function () {
-			$(".service_" + x).fadeOut(500);
-			x++;
-			if (x > max) {
-				x = 0;
-			}
-			$(".service_" + x).delay(1000).fadeIn(500);
-		}, 10000);
-	}
-};
+			setInterval(function () {
+				$(".service_" + x).fadeOut(500);
+				x++;
+				if (x > max) {
+					x = 0;
+				}
+				$(".service_" + x).delay(1000).fadeIn(500);
+			}, 10000);
+		}
+	};
 
-frontLoop();
-
-
+	frontLoop();
 
 
-// SERVICES PAGE
-
+//Services Page
 	// ITEM HOVER CHANGES
 	$(".serviceItem").hover(
 		function () {
@@ -47,9 +43,9 @@ frontLoop();
 	);
 	
 	// FORM OVERLAY
-	$(".serviceItem").click(function () {
+	$(".serviceItem, .frontItem").click(function () {
 		$("#sidenav").fadeOut(200);
-		$("div:hidden").fadeIn(200);
+		$(".form").fadeIn(200);
 	});
 	
 	$("#formOverlay").click(function(){

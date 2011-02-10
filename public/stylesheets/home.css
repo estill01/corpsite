@@ -30,6 +30,10 @@
 	position: static;
 }
 
+.frontItem {
+	cursor: pointer;
+}
+
 .service_0 {
 /*	display: none;*/
 }
