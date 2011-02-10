@@ -3,7 +3,7 @@
 	<%= form_for(@inquiry) do |f| %>
 	<div class="textarea" id="howHelp">
 		<%= f.label :content, "What can we do for you?" %><br/>
-		<%= f.text_area :content, :cols => 10, :rows => 3  %>
+		<%= f.text_area :content, :cols => 10, :rows => 3 , :id => "floatForm" %>
 	</div>
 	<div class="field">
 		<%= f.label :name %><br/>

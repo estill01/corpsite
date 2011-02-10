@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
 
-	// FRONT LOOP
+// IMAGE LOOP
 	function frontLoop () {
 		var x = 0;
 		var max = 2;
 
 		if ($('title').html() === "Protovore Partners | home") {
-		
+	
 			setInterval(function () {
 				$(".service_" + x).fadeOut(500);
 				x++;
@@ -46,6 +46,7 @@ $(document).ready(function () {
 	$(".serviceItem, .frontItem").click(function () {
 		$("#sidenav").fadeOut(200);
 		$(".form").fadeIn(200);
+		$("#floatForm").focus();		
 	});
 	
 	$("#formOverlay").click(function(){
