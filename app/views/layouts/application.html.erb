@@ -17,12 +17,12 @@
 		</div>
 		<div id="sidenav">
 			<ul>
-				<li><%= link_to 'Services', services_path %></li>
 				<li><%= link_to 'About', about_path %></li>
+				<li><%= link_to 'Services', services_path %></li>
 				<li><%= link_to 'Contact', contact_path %></li>
 				<!-- <li><%= link_to 'Blog', blog_path %></li> -->
 				<li class="twitter"><a href="http://www.twitter.com/protovore"><img src="http://twitter-badges.s3.amazonaws.com/twitter-c.png" alt="Follow @protovore on Twitter"/></a></li>
-				<% if @title != "home" %>
+				<% if @title != "about" %>
 					<%= render :partial => 'shared/back' %>
 				<% end %>
 			</ul>
